@@ -1,0 +1,28 @@
+Bài 1:(15 phút)
+Tìm kiếm thông tin khách, hệ thống hỗ trợ API tìm kiếm như sau:[(host-name)]/api/v1/danh-sách?timKiem=
+param timKiem hỗ trợ tìm kiếm theo Mã khách, Số điện thoại , Tên khách
+Thao tác NSD
+1. Step 1; Bấm chọn chức năng "Xem danh sách" và cho các tiêu chí tìm kiếm Tên khách =Nguyễn A
+   Hệ thống gọi API và hiện thị Danh sách các khách thỏa mãn tiêu chí tìm kiếm (kết quả trả về 1 triệu bản ghi thỏa mãn)
+2. Step 2; Bấm chọn 1 khách hàng cụ thể trong Danh sách Mã khách = 123456
+
+Câu hỏi:
+1. Với API đã cung cấp , Hệ thống gọi API tương ứng như thế nào ở Step 1 và 2 để thực hiện tính năng (ghi rõ ra nhé )
+2. Bạn có đề xuất gì để cải thiện performance tương ứng tại Step 1 Và Step 2( ghi rõ ra đề xuất của bạn)
+
+Bài 2: (1,5h)
+Vào trang web này:  https://gorest.co.in/
+Manually: Login vào trang này dùng github nhé, rồi vào phần access token sẽ thấy cái key, cái key này dùng để chạy API đấy (Dễ hiểu không (devil))
+Đề bài:
+1. Dùng postman tạo API để nó lấy được cái key ở phía bên trên 
+2. Viết 1 API để tạo 5 users
+3. Chọn 1 user bất kì trong 5 user trên và sửa thông tin Name = "APIEZ" + current_second (giây ở thời điểm hiện tại). Test xem current_sencond là giây chẵn hay giây lẻ
+4. Chọn 1 user bất kì trong 4 user còn lại rồi xóa nó đi
+5. Test xem xóa thành công chưa
+(Khó lấy key quá thì copy paste bằng tay cũng đc :)) )
+
+* lưu ý: 1. Không share đề cho bạn nào nhé
+         2. Làm bài 1 trong 15P xong thì nộp bài làm bài 2 nhé 
+
+1.1. Step 1: GET, Step 2: GET
+1.2. ...
